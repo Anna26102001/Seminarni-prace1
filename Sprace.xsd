@@ -1,0 +1,34 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Potraviny">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="seznam" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="nazev"/>
+              <xs:element type="xs:string" name="kategorie"/>
+              <xs:element type="xs:float" name="cena_vyrobku_ks"/>
+              <xs:element type="xs:float" name="celkova_cena_sarzi"/>
+              <xs:element type="xs:float" name="trvanlivost_dni"/>
+              <xs:element type="xs:string" name="vyrobce"/>
+              <xs:element type="xs:string" name="stat_puvodu"/>
+              <xs:element type="xs:string" name="podminky_skladovani"/>
+              <xs:element type="xs:string" name="teplota_skladovani"/>
+              <xs:element type="xs:float" name="cena_za_doruceni"/>
+              <xs:element type="xs:float" name="tel_cislo_poskytovatele"/>
+              <xs:element type="xs:float" name="hmotnost_dodavky_kg"/>
+              <xs:element type="xs:string" name="datum_dodani"/>
+              <xs:element type="xs:string" name="cas_dodani"/>
+              <xs:element type="xs:float" name="mnozstvi"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="Kod_vyrobku" use="optional"/>
+            <xs:attribute type="xs:byte" name="Dorucovaci_cislo" use="optional"/>
+            <xs:attribute type="xs:string" name="Stav" use="optional"/>
+            <xs:attribute type="xs:string" name="Identifikator_dodavatele" use="optional"/>
+            <xs:attribute type="xs:string" name="Cislo_skladu" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

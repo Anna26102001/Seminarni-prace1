@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Sprace.xsl"?>
+    <Potraviny xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="Sprace.xsd">
+
+        <seznam Kod_vyrobku="P1" Dorucovaci_cislo="1"  Stav="prijato" Identifikator_dodavatele="D1" Cislo_skladu="S1">
+          <nazev>Veprovy mlety polotovar  </nazev>
+          <kategorie> Maso </kategorie>
+          <cena_vyrobku_ks>30 </cena_vyrobku_ks>
+          <celkova_cena_sarzi>2000 </celkova_cena_sarzi>
+          <trvanlivost_dni> 7 </trvanlivost_dni>
+          <vyrobce> masoCZ </vyrobce>
+          <stat_puvodu> Cesko </stat_puvodu>
+          <podminky_skladovani>lednice </podminky_skladovani>
+          <teplota_skladovani> max 4-5°C </teplota_skladovani>
+          <cena_za_doruceni>100 </cena_za_doruceni>
+          <tel_cislo_poskytovatele>774738756 </tel_cislo_poskytovatele>
+          <hmotnost_dodavky_kg>30</hmotnost_dodavky_kg>
+          <datum_dodani>20.04.2022 </datum_dodani>
+          <cas_dodani> 7:50 </cas_dodani>
+          <mnozstvi> 30 </mnozstvi>
+        </seznam>
+
+        <seznam Kod_vyrobku="P2" Dorucovaci_cislo="2"  Stav="prijato" Identifikator_dodavatele="D1" Cislo_skladu="S1">
+          <nazev>Kureci polevkova smes </nazev>
+          <kategorie> Maso </kategorie>
+          <cena_vyrobku_ks>20 </cena_vyrobku_ks>
+          <celkova_cena_sarzi>1500 </celkova_cena_sarzi>
+          <trvanlivost_dni> 100 </trvanlivost_dni>
+          <vyrobce> masoCZ </vyrobce>
+          <stat_puvodu> Cesko </stat_puvodu>
+          <podminky_skladovani> Mraznička </podminky_skladovani>
+          <teplota_skladovani> min -2°C </teplota_skladovani>
+          <cena_za_doruceni> 50 </cena_za_doruceni>
+          <tel_cislo_poskytovatele>774738756 </tel_cislo_poskytovatele>
+          <hmotnost_dodavky_kg> 15 </hmotnost_dodavky_kg>
+          <datum_dodani> 20.04.2022 </datum_dodani>
+          <cas_dodani> 7:50 </cas_dodani>
+          <mnozstvi> 10 </mnozstvi>
+        </seznam>
+
+        <seznam Kod_vyrobku="P3" Dorucovaci_cislo="3"  Stav="prijato" Identifikator_dodavatele="D2" Cislo_skladu="S2">
+          <nazev> Alnatura BIO Vanilková zmrzlina</nazev>
+          <kategorie> Sladkosti </kategorie>
+          <cena_vyrobku_ks>10 </cena_vyrobku_ks>
+          <celkova_cena_sarzi>1000 </celkova_cena_sarzi>
+          <trvanlivost_dni>200 </trvanlivost_dni>
+          <vyrobce> CeskaZmrzlina </vyrobce>
+          <stat_puvodu> Cesko </stat_puvodu>
+          <podminky_skladovani>Mraznička </podminky_skladovani>
+          <teplota_skladovani> min -3°C  </teplota_skladovani>
+          <cena_za_doruceni>100</cena_za_doruceni>
+          <tel_cislo_poskytovatele>772494582 </tel_cislo_poskytovatele>
+          <hmotnost_dodavky_kg>10 </hmotnost_dodavky_kg>
+          <datum_dodani>21.04.2022 </datum_dodani>
+          <cas_dodani>6:00 </cas_dodani>
+          <mnozstvi> 50 </mnozstvi>
+        </seznam>
+
+        <seznam Kod_vyrobku="P4" Dorucovaci_cislo="4"  Stav="na ceste" Identifikator_dodavatele="D3" Cislo_skladu="S1">
+          <nazev>Galbani Mozzarella </nazev>
+          <kategorie>mlecne vyrobky </kategorie>
+          <cena_vyrobku_ks>60 </cena_vyrobku_ks>
+          <celkova_cena_sarzi>2000 </celkova_cena_sarzi>
+          <trvanlivost_dni>15</trvanlivost_dni>
+          <vyrobce>syryCZ </vyrobce>
+          <stat_puvodu> Cesko </stat_puvodu>
+          <podminky_skladovani>lednice </podminky_skladovani>
+          <teplota_skladovani>max 5°C  </teplota_skladovani>
+          <cena_za_doruceni>50 </cena_za_doruceni>
+          <tel_cislo_poskytovatele>774550212 </tel_cislo_poskytovatele>
+          <hmotnost_dodavky_kg>30 </hmotnost_dodavky_kg>
+          <datum_dodani> 0 </datum_dodani>
+          <cas_dodani> 0 </cas_dodani>
+          <mnozstvi> 10 </mnozstvi>
+        </seznam>
+
+        <seznam Kod_vyrobku="P5" Dorucovaci_cislo="5"  Stav="prijato" Identifikator_dodavatele="D3" Cislo_skladu="S1">
+          <nazev>Miil Zakysaná smetana </nazev>
+          <kategorie>mlecne vyrobky </kategorie>
+          <cena_vyrobku_ks>10 </cena_vyrobku_ks>
+          <celkova_cena_sarzi>1500 </celkova_cena_sarzi>
+          <trvanlivost_dni> 15</trvanlivost_dni>
+          <vyrobce>syryCZ </vyrobce>
+          <stat_puvodu> Cesko </stat_puvodu>
+          <podminky_skladovani>lednice </podminky_skladovani>
+          <teplota_skladovani> max 5°C </teplota_skladovani>
+          <cena_za_doruceni>50 </cena_za_doruceni>
+          <tel_cislo_poskytovatele>774550212 </tel_cislo_poskytovatele>
+          <hmotnost_dodavky_kg>20 </hmotnost_dodavky_kg>
+          <datum_dodani>21.04.2022 </datum_dodani>
+          <cas_dodani>6:30 </cas_dodani>
+          <mnozstvi> 20</mnozstvi>
+        </seznam>
+
+        <seznam Kod_vyrobku="P6" Dorucovaci_cislo="6"  Stav="prijato" Identifikator_dodavatele="D3" Cislo_skladu="S1">
+          <nazev>Selský jogurt </nazev>
+          <kategorie> mlecne vyrobky</kategorie>
+          <cena_vyrobku_ks>15 </cena_vyrobku_ks>
+          <celkova_cena_sarzi>850 </celkova_cena_sarzi>
+          <trvanlivost_dni> 15  </trvanlivost_dni>
+          <vyrobce>syryCZ </vyrobce>
+          <stat_puvodu> Cesko </stat_puvodu>
+          <podminky_skladovani>lednice </podminky_skladovani>
+          <teplota_skladovani>max 5°C </teplota_skladovani>
+          <cena_za_doruceni>50 </cena_za_doruceni>
+          <tel_cislo_poskytovatele>774550212 </tel_cislo_poskytovatele>
+          <hmotnost_dodavky_kg>15 </hmotnost_dodavky_kg>
+          <datum_dodani>21.04.2022 </datum_dodani>
+          <cas_dodani> 6:30 </cas_dodani>
+          <mnozstvi> 15 </mnozstvi>
+        </seznam>
+
+        <seznam Kod_vyrobku="P7" Dorucovaci_cislo="7"  Stav="prijato" Identifikator_dodavatele="D4" Cislo_skladu="S3">
+          <nazev> Pringles Original</nazev>
+          <kategorie> Obcerstveni </kategorie>
+          <cena_vyrobku_ks>50 </cena_vyrobku_ks>
+          <celkova_cena_sarzi>3000 </celkova_cena_sarzi>
+          <trvanlivost_dni>180</trvanlivost_dni>
+          <vyrobce> Kellogg's </vyrobce>
+          <stat_puvodu> USA </stat_puvodu>
+          <podminky_skladovani>ciste a suche misto </podminky_skladovani>
+          <teplota_skladovani> max 25°C </teplota_skladovani>
+          <cena_za_doruceni>200 </cena_za_doruceni>
+          <tel_cislo_poskytovatele>774987384 </tel_cislo_poskytovatele>
+          <hmotnost_dodavky_kg>50 </hmotnost_dodavky_kg>
+          <datum_dodani>22.04.2022 </datum_dodani>
+          <cas_dodani>10:30 </cas_dodani>
+          <mnozstvi> 40 </mnozstvi>
+        </seznam>
+
+        <seznam Kod_vyrobku="P8" Dorucovaci_cislo="8"  Stav="prijato" Identifikator_dodavatele="D4" Cislo_skladu="S3">
+          <nazev>Kand kecup Tomato </nazev>
+          <kategorie> omacky </kategorie>
+          <cena_vyrobku_ks> 20 </cena_vyrobku_ks>
+          <celkova_cena_sarzi>1000 </celkova_cena_sarzi>
+          <trvanlivost_dni>60 </trvanlivost_dni>
+          <vyrobce>Kellogg's </vyrobce>
+          <stat_puvodu> USA </stat_puvodu>
+          <podminky_skladovani>ciste a suche misto </podminky_skladovani>
+          <teplota_skladovani>max 25°C </teplota_skladovani>
+          <cena_za_doruceni>50 </cena_za_doruceni>
+          <tel_cislo_poskytovatele>774987384 </tel_cislo_poskytovatele>
+          <hmotnost_dodavky_kg>20 </hmotnost_dodavky_kg>
+          <datum_dodani>22.04.2022 </datum_dodani>
+          <cas_dodani>10:30 </cas_dodani>
+          <mnozstvi>20 </mnozstvi>
+        </seznam>
+
+        <seznam Kod_vyrobku="P9" Dorucovaci_cislo="9"  Stav="na ceste" Identifikator_dodavatele="D5" Cislo_skladu="S3">
+          <nazev>Corona Extra Pivo </nazev>
+          <kategorie> Napoje </kategorie>
+          <cena_vyrobku_ks>23 </cena_vyrobku_ks>
+          <celkova_cena_sarzi>2300 </celkova_cena_sarzi>
+          <trvanlivost_dni>60</trvanlivost_dni>
+          <vyrobce> Grupo Model </vyrobce>
+          <stat_puvodu> Mexiko </stat_puvodu>
+          <podminky_skladovani>ciste a suche misto </podminky_skladovani>
+          <teplota_skladovani>max 20°C </teplota_skladovani>
+          <cena_za_doruceni>50 </cena_za_doruceni>
+          <tel_cislo_poskytovatele>774221435 </tel_cislo_poskytovatele>
+          <hmotnost_dodavky_kg>30 </hmotnost_dodavky_kg>
+          <datum_dodani> 0 </datum_dodani>
+          <cas_dodani> 0 </cas_dodani>
+          <mnozstvi> 20 </mnozstvi>
+        </seznam>
+
+        <seznam Kod_vyrobku="P10" Dorucovaci_cislo="10"  Stav="prijato" Identifikator_dodavatele="D4" Cislo_skladu="S4">
+          <nazev>Pohanka </nazev>
+          <kategorie>Obiloviny </kategorie>
+          <cena_vyrobku_ks>10 </cena_vyrobku_ks>
+          <celkova_cena_sarzi>2000 </celkova_cena_sarzi>
+          <trvanlivost_dni>150</trvanlivost_dni>
+          <vyrobce> ObilovinyCZ </vyrobce>
+          <stat_puvodu> Cesko </stat_puvodu>
+          <podminky_skladovani>ciste a suche misto </podminky_skladovani>
+          <teplota_skladovani>max 25°C </teplota_skladovani>
+          <cena_za_doruceni>100 </cena_za_doruceni>
+          <tel_cislo_poskytovatele> 774987384</tel_cislo_poskytovatele>
+          <hmotnost_dodavky_kg> 50 </hmotnost_dodavky_kg>
+          <datum_dodani>23.04.2022 </datum_dodani>
+          <cas_dodani> 9:00 </cas_dodani>
+          <mnozstvi>20</mnozstvi>
+        </seznam>
+      </Potraviny>
